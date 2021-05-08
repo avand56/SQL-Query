@@ -26,7 +26,7 @@ ORDER BY COUNT(*) desc;
 
 -- Answer=40
 
-C)
+--C)
 
 CREATE VIEW Products_Ordered AS
 SELECT Orders.OrderID, Customers.Country, OrderDetails.Quantity, Products.ProductName
